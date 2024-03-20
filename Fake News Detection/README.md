@@ -2,10 +2,6 @@
 
 Fake News Detection in Python
 
-# Detecting Fake News
-
-Detecting Fake News with Python
-
 This project employs a range of natural language processing techniques and machine learning algorithms to discern fake news articles using Python's sci-kit libraries.
 
 ## Getting Started
