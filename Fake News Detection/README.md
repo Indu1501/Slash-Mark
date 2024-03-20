@@ -2,32 +2,36 @@
 
 Fake News Detection in Python
 
-In this project, we have used various natural language processing techniques and machine learning algorithms to classify fake news articles using sci-kit libraries from python. 
+# Detecting Fake News
+
+Detecting Fake News with Python
+
+This project employs a range of natural language processing techniques and machine learning algorithms to discern fake news articles using Python's sci-kit libraries.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Follow these instructions to set up the project on your local machine for development and testing purposes. For deployment notes, refer to the deployment section.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them:
+Ensure you have the following prerequisites installed:
 
-1. Python 3.6 
-   - This setup requires that your machine has python 3.6 installed on it. you can refer to this url https://www.python.org/downloads/ to download python. Once you have python downloaded and installed, you will need to setup PATH variables (if you want to run python program directly, detail instructions are below in *how to run software section*). To do that check this: https://www.pythoncentral.io/add-python-to-path-python-is-not-recognized-as-an-internal-or-external-command/.  
-   - Setting up PATH variable is optional as you can also run program without it and more instruction are given below on this topic. 
-2. Second and easier option is to download anaconda and use its anaconda prompt to run the commands. To install anaconda check this url https://www.anaconda.com/download/
-3. You will also need to download and install below 3 packages after you install either python or anaconda from the steps above
+1. Python 3.6:
+   - Download and install Python 3.6 from [Python's official website](https://www.python.org/downloads/). You may need to set up PATH variables (instructions provided in the *How to Run Software* section below).
+   - Alternatively, you can install Anaconda, which simplifies package management and environment setup. Download Anaconda from [here](https://www.anaconda.com/download/).
+
+2. Install the following packages after installing Python or Anaconda:
    - Sklearn (scikit-learn)
    - numpy
    - scipy
-   
-  - if you have chosen to install python 3.6 then run below commands in command prompt/terminal to install these packages
-   ```
+
+For Python 3.6, execute the following commands in the command prompt or terminal:
+```
    pip install -U scikit-learn
    pip install numpy
    pip install scipy
    ```
-   - if you have chosen to install anaconda then run below commands in anaconda prompt to install these packages
+- if you have chosen to install anaconda then run below commands in anaconda prompt to install these packages
    ```
    conda install -c scikit-learn
    conda install -c anaconda numpy
@@ -148,4 +152,3 @@ $ git clone https://github.com/lakshmikanth9286/Slash_Mark/Fake_News_Detection.g
     - After hitting the enter, program will ask for an input which will be a piece of information or a news headline that you 	    	   want to verify. Once you paste or type news headline, then press enter.
 
     - Once you hit the enter, program will take user input (news headline) and will be used by model to classify in one of  categories of "True" and "False". Along with classifying the news headline, model will also provide a probability of truth associated with it.
-
