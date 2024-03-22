@@ -1,20 +1,19 @@
-A description of the project, along with examples of video annotation by network is provided below.
+# Project Description with Video Annotation
 
-<img src="https://github.com/Skar0/fire-detection/blob/master/video_examples/video_0.gif" width="300">      <img src="https://github.com/Skar0/fire-detection/blob/master/video_examples/video_1.gif" width="300">
-
+![Video Example 1](https://github.com/Skar0/fire-detection/blob/master/video_examples/video_0.gif) ![Video Example 2](https://github.com/Skar0/fire-detection/blob/master/video_examples/video_1.gif)
 
 ## Datasets
-#### Provided dataset
+### Provided dataset
 
-The network is trained on a provided dataset which contains images of three categories : 'fire', 'no fire', 'start fire' totalling around 6000 images. These images are mostly of forest or forest-like environments. Images labelled 'fire' contain visible flames,  'start fire' images contain smoke indicating the start of a fire. Finaly, images labelled 'no fire' are
-images taken in forests. 
+The network is trained on a provided dataset which contains images of three categories: 'fire', 'no fire', 'start fire' totaling around 6000 images. These images are mostly of forest or forest-like environments. Images labeled 'fire' contain visible flames, 'start fire' images contain smoke indicating the start of a fire. Finally, images labeled 'no fire' are images taken in forests.
 
-#### Augmenting the dataset
+### Augmenting the dataset
 
-The experiments showed that the network had trouble classifying 'start fire' images so I added images of this category to the dataset by extracting frames from videos showing the start of a fire. In order to train a network which generalizes well to new images, I used data augmentation functions provided by Keras to perform a series of random transformations (zooms, shifts, crops and rotations) on images before they are fed to the network.
+The experiments showed that the network had trouble classifying 'start fire' images so I added images of this category to the dataset by extracting frames from videos showing the start of a fire. In order to train a network which generalizes well to new images, I used data augmentation functions provided by Keras to perform a series of random transformations (zooms, shifts, crops, and rotations) on images before they are fed to the network.
 
-## Project structure
-The goal was to create a legible project which handles every aspect of CNN creation and training. The code is organized as follows :
+## Project Structure
+The goal was to create a legible project which handles every aspect of CNN creation and training. The code is organized as follows:
+
 
 ```bash
 ├── launcher.py
