@@ -3,8 +3,7 @@
 Diabetic retinopathy, a serious complication of diabetes, poses a significant risk of permanent blindness if left untreated. This project endeavors to create a solution for the early detection of diabetic retinopathy utilizing machine learning methodologies.
 
 ## Dataset
-The dataset utilized in this project is available on Kaggle under the title Diabetic Retinopathy Detection. It encompasses a repository of retinal images annotated with diabetic retinopathy severity levels, serving as a crucial asset for training and assessing machine learning models.
-
+The dataset for this project can be found on Kaggle at [Diabetic Retinopathy Detection](https://www.kaggle.com/c/diabetic-retinopathy-detection/data). It contains a collection of retinal images labeled with the severity of diabetic retinopathy, providing a valuable resource for training and evaluating machine learning models.
 ## Objective
 The primary aim of this endeavor is to construct a dependable and precise system for diagnosing diabetic retinopathy from retinal images. Through the application of machine learning algorithms, the objective is to aid healthcare practitioners in the timely identification and intervention, thereby mitigating the risk of vision impairment in diabetic individuals.
 
