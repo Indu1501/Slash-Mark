@@ -1,17 +1,17 @@
-# Diabetic Retinopathy Detection
+# Detecting Diabetic Retinopathy
 
-Diabetic retinopathy is a severe condition commonly associated with diabetes, which can lead to permanent blindness if not detected and treated promptly. This project aims to develop a solution for the early detection of diabetic retinopathy using machine learning techniques.
+Diabetic retinopathy, a serious complication of diabetes, poses a significant risk of permanent blindness if left untreated. This project endeavors to create a solution for the early detection of diabetic retinopathy utilizing machine learning methodologies.
 
 ## Dataset
-The dataset for this project can be found on Kaggle at [Diabetic Retinopathy Detection](https://www.kaggle.com/c/diabetic-retinopathy-detection/data). It contains a collection of retinal images labeled with the severity of diabetic retinopathy, providing a valuable resource for training and evaluating machine learning models.
+The dataset utilized in this project is available on Kaggle under the title Diabetic Retinopathy Detection. It encompasses a repository of retinal images annotated with diabetic retinopathy severity levels, serving as a crucial asset for training and assessing machine learning models.
 
-## Goal
-The primary goal of this project is to develop a reliable and accurate system for diagnosing diabetic retinopathy from retinal images. By leveraging machine learning algorithms, we aim to assist healthcare professionals in early detection and intervention, ultimately reducing the risk of vision loss in diabetic patients.
+## Objective
+The primary aim of this endeavor is to construct a dependable and precise system for diagnosing diabetic retinopathy from retinal images. Through the application of machine learning algorithms, the objective is to aid healthcare practitioners in the timely identification and intervention, thereby mitigating the risk of vision impairment in diabetic individuals.
 
 
 ## Getting Started
 To get started with this project, follow these steps:
-1. Clone the repository: `git clone https://github.com/yourusername/Diabetic-Retinopathy-Detection.git`
+1. Clone the repository: `git clone https://github.com/Indu1501/Slash-Mark/edit/main/Diabetic%20Retinopathy%20Detection`
 2. Navigate to the project directory: `cd Diabetic-Retinopathy-Detection`
 3. Download the dataset from the provided Kaggle link and place it in the `data/` directory.
 4. Set up your Python environment with the required dependencies listed in `requirements.txt`.
